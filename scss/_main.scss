@@ -1,0 +1,77 @@
+main {
+	.elSlide{
+		border-radius: 1.25rem;
+		box-shadow: 0px 0px 15px $colorAgua;
+		.carousel-item{
+			height: 20rem;
+			background-color: $colorTransparenteMedio;
+			background-position: center center;
+			background-size: cover;
+			.bgtm{
+				background-color: $colorTransparenteMedio;
+				border-radius: 1.25rem;
+			}
+		}
+	}
+	.svbutton{
+		margin: 1rem;;
+	}
+	.srv {
+		padding-bottom: 1rem;
+	}
+	.h3s {
+		height: 5rem;
+	}
+	.bgww{
+		background-color: $colorTransparenteMedio;
+		border-radius: 1.25rem;
+		box-shadow: 0px 0px 15px gray;
+	}
+	i{
+		box-shadow: 0px 0px 15 black;
+	}
+	svg {
+		height: 2rem;
+		fill: #131313;
+		transition: all 2s;
+		&:hover{
+			transform: rotate(360deg);
+		}
+	}
+	.bgw {
+		border-radius: 1.25rem;
+		box-shadow: 0px 0px 5px $colorAgua;
+		transition: all 1.5s;
+		&:hover {
+			background-color: $colorTransparenteMedio;
+			border-radius: 1.25rem;
+			box-shadow: 0px 0px 15px gray;
+			transition: all 1.5s;
+		}
+	}
+	.bx {
+		transition: all 1.5s;
+		&:hover {
+			transition: all 1.5s;
+		}
+	}
+	.circulo{
+		border-radius: 50%;
+	}
+	.imgbox {
+		width: 13.125rem;
+		height: 9.875rem;
+		border-radius: 50%;
+		box-shadow: 0px 0px 10px $colorAgua;
+		opacity: 0.8;
+		transition: all 1.5s;
+		&:hover {
+			width: 13.125rem;
+			height: 9.875rem;
+			opacity: 1;
+			box-shadow: 0px 0px 15px black;
+			border-radius: 5%;
+			transition: all 1.5s;
+		}
+	}
+}

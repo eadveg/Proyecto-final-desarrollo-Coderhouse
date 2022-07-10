@@ -1,0 +1,201 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
+body {
+  background-color: #7ee8fa;
+  background-image: url("../img/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Syne", sans-serif !important;
+}
+
+header h1 {
+  display: inline;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px gray;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+header h3 {
+  display: inline;
+}
+header ul a {
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px gray;
+  transition: all 1s;
+}
+header ul a:hover {
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  box-shadow: 1px 1px 15px #7ee8fa;
+  transition: all 1s;
+}
+header .no {
+  color: black;
+}
+header .no:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+main .elSlide {
+  border-radius: 1.25rem;
+  box-shadow: 0px 0px 15px #7ee8fa;
+}
+main .elSlide .carousel-item {
+  height: 20rem;
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  background-position: center center;
+  background-size: cover;
+}
+main .elSlide .carousel-item .bgtm {
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  border-radius: 1.25rem;
+}
+main .svbutton {
+  margin: 1rem;
+}
+main .srv {
+  padding-bottom: 1rem;
+}
+main .h3s {
+  height: 5rem;
+}
+main .bgww {
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  border-radius: 1.25rem;
+  box-shadow: 0px 0px 15px gray;
+}
+main i {
+  box-shadow: 0px 0px 15 black;
+}
+main svg {
+  height: 2rem;
+  fill: #131313;
+  transition: all 2s;
+}
+main svg:hover {
+  transform: rotate(360deg);
+}
+main .bgw {
+  border-radius: 1.25rem;
+  box-shadow: 0px 0px 5px #7ee8fa;
+  transition: all 1.5s;
+}
+main .bgw:hover {
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  border-radius: 1.25rem;
+  box-shadow: 0px 0px 15px gray;
+  transition: all 1.5s;
+}
+main .bx {
+  transition: all 1.5s;
+}
+main .bx:hover {
+  transition: all 1.5s;
+}
+main .circulo {
+  border-radius: 50%;
+}
+main .imgbox {
+  width: 13.125rem;
+  height: 9.875rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #7ee8fa;
+  opacity: 0.8;
+  transition: all 1.5s;
+}
+main .imgbox:hover {
+  width: 13.125rem;
+  height: 9.875rem;
+  opacity: 1;
+  box-shadow: 0px 0px 15px black;
+  border-radius: 5%;
+  transition: all 1.5s;
+}
+
+footer .ft {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px gray;
+  margin-bottom: 15px;
+}
+footer .ft ul li {
+  display: inline-block;
+}
+footer .ft ul li a {
+  color: black;
+  box-shadow: 0px 0px 5px gray;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 5px 1px;
+  margin: 0 1px;
+  transition: all 1s;
+}
+footer .ft ul li a:hover {
+  color: black;
+  box-shadow: 1px 1px 15px #7ee8fa;
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  transition: all 1s;
+}
+footer .ft .redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .ft .redes ul li {
+  display: inline-block;
+  margin: 0 0px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+footer .ft .redes ul li a {
+  display: block;
+  padding: 0px 0px;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  line-height: 30px;
+  font-size: 16x;
+  box-shadow: 0 3px 5px 0px gray;
+  transition: 0.2s;
+}
+footer .ft .redes ul li a:hover {
+  color: white;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px black;
+  filter: none;
+}
+footer .ft .redes ul li .fb:hover {
+  background: #3b5999;
+}
+footer .ft .redes ul li .ig:hover {
+  background: #e4405f;
+}
+footer .ft .redes ul li .tw:hover {
+  background: #55acee;
+}
+footer .ft .redes ul li .wp:hover {
+  background: #00ff00;
+}
+footer .ft .redes ul li .lk:hover {
+  background: #0077b5;
+}
+footer .ft .redes ul:hover a {
+  filter: blur(2px);
+}
+footer img {
+  width: 25px;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  margin: 0 5px;
+  transition: all 4s;
+}
+footer img:hover {
+  transform: rotate(4680deg);
+}
+footer h6 {
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */

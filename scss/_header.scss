@@ -1,0 +1,33 @@
+header {
+	h1 {
+		display: inline;
+		border-radius: 20px;
+		box-shadow: 0px 0px 5px gray;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
+	h3 {
+		display: inline;
+	}
+	ul {
+		a {
+			color: black;
+			border-radius: 20px;
+			box-shadow: 0px 0px 5px gray;
+			transition: all 1s;
+			&:hover {
+				background-color: $colorTransparenteMedio;
+				box-shadow: 1px 1px 15px $colorAgua;
+				transition: all 1s;
+			}
+		}
+	}
+	.no{
+		color: black;
+		
+	&:hover {
+		background-color: $colorTransparente;
+	}
+	}
+}

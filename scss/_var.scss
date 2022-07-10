@@ -1,0 +1,24 @@
+$colorAgua: #7ee8fa;
+$colorTransparente: #ffffff00;
+$colorTransparenteMedio: #ffffff80;
+$fb: #3b5999;
+$ig: #e4405f;
+$tw: #55acee;
+$wp: #00ff00;
+$lk: #0077b5;
+
+@mixin logosm {
+    width: 25px;
+	padding: 0px;
+	margin: 0px;
+}
+@mixin logomd {
+    width: 60px;
+	padding: 0px;
+	margin: 0px;
+}
+@mixin logolg {
+    width: 120px;
+	padding: 0px;
+	margin: 0px;
+}
